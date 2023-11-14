@@ -7,23 +7,23 @@ We use 4 equations depending on the species for the AGBD calculation. Described 
 
 ## EQUATIONS
 
-### Eq1 : palm species**
+### Eq1 : palm species
  **10 + 6.4*tree_Height**
 
  (https://www.fao.org/3/W4095E/w4095e06.htm#3.%20methods%20for%20estimating%20biomass%20density%20from%20existing%20data)
 
-### Eq2 : citrus species**
-**-6.64 + 0.279*(tree_DBH*tree_DBH*0.3142)+(0.000514* (tree_DBH*tree_DBH*0.3142)^2)**
+### Eq2 : citrus species
+ **-6.64 + 0.279*(tree_DBH*tree_DBH*0.3142)+(0.000514* (tree_DBH*tree_DBH*0.3142)^2)**
 
 (https://www.scirp.org/(S(lz5mqp453edsnp55rrgjct55.))/journal/paperinformation.aspx?paperid=86643)
 
-### Eq3 : cocoa species**
-**10*(-1.625 + 2.63*log(Cacao_tree_diam))**
+### Eq3 : cocoa species
+ **10*(-1.625 + 2.63*log(Cacao_tree_diam))**
 
 (allometric equation found in "Asigbaase et al 2021, Biomass and carbon stocks of organic and conventional cocoa agroforest, Ghana")
 
-### Eq4 : others species**
-**0.0673*(Wood_density*Height*Diameter^2)^0.976**
+### Eq4 : others species
+ **0.0673*(Wood_density*Height*Diameter^2)^0.976**
 
 (https://cran.r-project.org/web/packages/BIOMASS/BIOMASS.pdf)
 
