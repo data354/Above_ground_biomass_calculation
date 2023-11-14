@@ -48,6 +48,7 @@ You can  use the following command to start the app:
 Once the server is up and running, you can access by going to `http://localhost:8501/` or `http://192.168.86.36:8501/` in your web browser.
 
 This is the running applications interface 
+<img width="1440" alt="Screenshot 2023-11-14 at 16 14 12" src="https://github.com/data354/Above_ground_biomass_calculation/assets/103064728/761c57b4-4b10-4351-8eb9-5dc8de0feedf">
 
 
 That's it! You should now be able to use AGBD application. If you have any questions or problems, please don't hesitate to contact us at "issouf.toure@data354.co"
