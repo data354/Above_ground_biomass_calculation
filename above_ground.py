@@ -53,8 +53,8 @@ def agb(WD,H,D):
 # Ramener les valeurs calculées à l'hectare
 def hectare(x,superficie):
   val = ((x*10000)/(np.pi*superficie**2)) # ramner la valeur de biomass à l'unité (Kg/ha)
-  result = (val*10**6) # (Kg/ha)===> (Mg/ha)
-  return result
+  #result = (val*10**6) # (Kg/ha)===> (Mg/ha)
+  return val
 
 ##
 def total_biomass(x,y):
@@ -261,12 +261,12 @@ def shade_tree_biomass(collect_file_path):
                                                  'Shade_tree_Height','Wood_density','Shade_tree_Distance']]
 
   
-  woody_species_biomass["biomass_mg"] = woody_species_biomass.apply(lambda x : agb(x["Wood_density"],x["Shade_tree_Height"],x["Shade_tree_DBH"]),axis=1)
+  woody_species_biomass["biomass_kg"] = woody_species_biomass.apply(lambda x : agb(x["Wood_density"],x["Shade_tree_Height"],x["Shade_tree_DBH"]),axis=1)
 
   # convert Mg to Kg
-  woody_species_biomass["biomass_kg"] = (woody_species_biomass["biomass_mg"]*10**-6)
+  #woody_species_biomass["biomass_kg"] = (woody_species_biomass["biomass_mg"]*10**-6)
   ## remove biomass_mean column
-  woody_species_biomass.drop(columns=["biomass_mg"],inplace=True)
+  #woody_species_biomass.drop(columns=["biomass_mg"],inplace=True)
 
   cit_and_palm.rename(columns={"wds":"Wood_density"},inplace=True)
 

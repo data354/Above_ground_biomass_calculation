@@ -8,7 +8,8 @@ from above_ground import *
 
 #title = "🌴 ABOVE GROUND BIOMASS CALCULATION WITH FIELD DATA 🌴"
 #description = "."
-#article = "Created by data354."
+# 🌷🌸🌹🌺🌻🌼
+#article = "Created by data354.
 
 st.title("🌴 AGBD CALCULATION 🌴")
 st.markdown("In this application we use field measurement to calculate aboveground biomass density (AGBD) using allometric equations.")
