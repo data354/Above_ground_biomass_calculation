@@ -23,7 +23,7 @@ We use 4 equations depending on the species for the AGBD calculation. Described 
 (allometric equation found in "Asigbaase et al 2021, Biomass and carbon stocks of organic and conventional cocoa agroforest, Ghana")
 
 ### Eq4 : others species
- **0.0673*(Wood_density*Height*Diameter^2)^0.976**
+ **0.0673*(Wood_density*Height*(Diameter)^2)^0.976**
 
 (https://cran.r-project.org/web/packages/BIOMASS/BIOMASS.pdf)
 
