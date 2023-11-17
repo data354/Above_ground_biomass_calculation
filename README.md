@@ -27,7 +27,7 @@ We use 4 equations depending on the species for the AGBD calculation. Described 
  **10\*(-1.625 + 2.63\*log(Cacao_tree_diam))**
 
 
-### Eq4 : others species [(source)]((https://cran.r-project.org/web/packages/BIOMASS/BIOMASS.pdf))
+### Eq4 : others species [(source)](https://cran.r-project.org/web/packages/BIOMASS/BIOMASS.pdf)
 
  **0.0673\*(Wood_density\*Height\*(Diameter)^2)^0.976**
 
